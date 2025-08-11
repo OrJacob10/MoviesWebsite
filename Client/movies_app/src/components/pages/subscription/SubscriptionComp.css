@@ -1,0 +1,41 @@
+.subscription-card {
+  border: 4px solid black;
+  min-height: 200px;
+  width: 70%;
+  max-width: 100%;
+  padding-left: 0.9%;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+.subscription-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.subscription-info {
+  margin-bottom: 15px;
+}
+
+.subscription-buttons {
+  margin-bottom: 15px;
+}
+
+.subscription-movies {
+  border: 4px solid black;
+  min-height: 100px;
+  width: 65%;
+  max-width: 100%;
+  padding-left: 0.9%;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+.subscription-movies ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.subscription-movies li {
+  margin-bottom: 5px;
+} 

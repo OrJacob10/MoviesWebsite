@@ -1,0 +1,13 @@
+.main-container {
+  min-width: 800px;  /* or whatever your desired minimum width is */
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  /* Keep all your existing styles */
+}
+
+/* Add this to prevent content from squishing */
+body {
+  min-width: 800px;  /* same as container min-width */
+  overflow-x: auto;  /* allows horizontal scroll if window is smaller */
+} 

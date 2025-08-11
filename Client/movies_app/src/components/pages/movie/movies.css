@@ -1,0 +1,111 @@
+.movies-container {
+  width: 100%;
+  max-width: 800px;
+  min-width: 350px;
+  position: relative;
+}
+
+.movies-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.movies-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.movies-search-input {
+  height: 22px;
+  padding: 2px;
+  min-width: 100px;
+  max-width: 200px;
+}
+
+.movie-input-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.movie-input-container input[type="text"],
+.movie-input-container input[type="url"] {
+  flex: 1;
+  min-width: 150px;
+  max-width: 70%;
+}
+
+.movie-error {
+  color: red;
+  font-size: 14px;
+}
+
+.movie-button-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 1%;
+}
+
+.middle-comp {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+
+.movie-image {
+  width: 104px;
+  height: 144.5px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+/* Add container for buttons to prevent overflow */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+/* Ensure buttons don't shrink too small */
+button {
+  min-width: fit-content;
+  white-space: nowrap;
+}
+
+/* Add these to your existing CSS */
+.form-container {
+  width: 100%;
+  max-width: 700px;
+  min-width: 350px;
+  padding: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.input-container label {
+  min-width: 80px;
+  white-space: nowrap;
+}
+
+.input-container input {
+  flex: 1;
+  min-width: 200px;
+  max-width: 100%;
+}

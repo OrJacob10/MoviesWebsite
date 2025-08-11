@@ -1,0 +1,42 @@
+.input-container {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+  
+}
+
+.input-container input {
+  flex: 0.2;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.nav-buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.users-container {
+  width: 100%;
+}
+
+.users-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.not-authorized {
+  color: red;
+}
+
+.loading {
+  font-style: italic;
+}

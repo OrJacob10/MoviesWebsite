@@ -1,0 +1,41 @@
+.movie-card {
+  border: 4px solid black;
+  min-height: 260px;
+  width: 80%;
+  max-width: 700px;
+  min-width: 350px;
+  padding-left: 0.9%;
+  padding-bottom: 0.8%;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  position: relative;
+}
+
+.movie-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.movie-image {
+  width: 104px;
+  height: 144.5px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+.movie-subscriptions {
+  border: 4px solid black;
+  padding: 4px;
+  width: 65%;
+  min-width: 200px;
+  height: 130px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.middle-comp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  align-items: flex-start;
+} 

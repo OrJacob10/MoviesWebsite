@@ -1,0 +1,18 @@
+
+todo:
+* subscriptionsService add an error check(if statment) that the user can't subscribe twice to the same movie (if needed).. figure out later
+* react -  implement nested routing and private routing (later)
+* react -  optimize components (for example i noticed that i fetch users in the main component, but in editUser i need to fetch user again, maybe i can get all the data beforehand and just pass a specific user instead of fetching it)
+* react - optimize all components!!! there are some things that can be way more efficient!!! (fetching mainly)
+
+checked:
+
+SubscriptionWS 
+- SubscriptionWS api calls in postman
+
+cinemaWS
+- cinemaWS users calls (including create account, permissions json and user json)
+- cinemaWS api calls to subscriptionsWS in postman
+- error middleware for cinemaWS 
+- check all the functions of subscription API through the cinemaWS.
+- autherization middleware in cinemaWS including permission by users

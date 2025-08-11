@@ -1,0 +1,8 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* all button styles are now handled in index.css */
+  

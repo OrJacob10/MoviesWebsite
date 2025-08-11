@@ -1,0 +1,47 @@
+.subscriptions-container {
+  width: 100%;
+}
+
+.subscriptions-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subscriptions-controls {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.subscription-input-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.subscription-input-container input {
+  min-width: 150px;
+}
+
+.subscription-error {
+  color: red;
+  font-size: 14px;
+}
+
+.subscription-button-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 1%;
+}
+
+.subscription-inputs-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 1%;
+}

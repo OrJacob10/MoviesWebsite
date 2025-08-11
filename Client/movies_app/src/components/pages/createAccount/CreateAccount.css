@@ -1,0 +1,29 @@
+/* Style for the Login page */
+.create-account-container {
+    padding-left: 1%;
+    margin-top: 0.4%;
+  }
+  
+  .create-account-title {
+    font-size: 2rem;
+  }
+  
+  .form-input-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .form-input-container input[type="text"],
+  .form-input-container input[type="password"] {
+    font-size: 1rem;
+    width: 200px;
+  }
+  
+  .submit-btn {
+    font-size: 0.9rem;
+    width: 4%;
+  }
+  
+  
